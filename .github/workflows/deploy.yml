@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
     push:
-        branches: [main]
+        branches: [master]
 
 jobs:
     build-and-deploy:
@@ -17,11 +17,16 @@ jobs:
               with:
                   node-version: "18"
 
+            - name: Install pnpm
+              uses: pnpm/action-setup@v2
+              with:
+                  version: 8
+
             - name: Install dependencies
-              run: npm install
+              run: pnpm install
 
             - name: Build
-              run: npm run build
+              run: pnpm build
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4

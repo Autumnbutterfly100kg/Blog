@@ -1,0 +1,4 @@
+pnpm build
+it add .
+git commit -m "Update content"
+git push origin master
