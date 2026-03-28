@@ -32,7 +32,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 4,
 		title: "伸びた夕影",
-		artist: "藤井稿太郎,
+		artist: "藤井稿太郎",
 		cover: "assets/music/cover/伸びた夕影.webp",
 		url: "assets/music/url/伸びた夕影.mp3",
 		duration: 0,
