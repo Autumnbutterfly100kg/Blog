@@ -1,4 +1,4 @@
-﻿﻿﻿﻿import type {
+﻿﻿﻿import type {
 	AnnouncementConfig,
 	CommentConfig,
 	ExpressiveCodeConfig,
@@ -24,7 +24,7 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
+	title: "阿秋的小屋",
 	subtitle: "One demo website",
 	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-03-28", // 站点开始运行日期，用于站点统计组件计算运行天数
@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
 		skills: false, // 技能页面开关
 		timeline: false, // 时间线页面开关
 		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
@@ -299,12 +299,6 @@ export const navBarConfig: NavBarConfig = {
 					url: "/albums/",
 					icon: "material-symbols:photo-library",
 				},
-				{
-					name: "Devices",
-					url: "/devices/",
-					icon: "material-symbols:devices",
-					external: false,
-				},
 			],
 		},
 		{
@@ -525,12 +519,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	components: {
 		left: ["profile", "announcement", "card-toc"],
 		right: ["site-stats", "calendar", "categories", "music-sidebar"],
-		drawer: [
-			"profile",
-			"announcement",
-			"music-sidebar",
-			"categories",
-		],
+		drawer: ["profile", "announcement", "music-sidebar", "categories"],
 	},
 
 	// 默认动画配置
