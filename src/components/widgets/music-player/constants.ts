@@ -77,6 +77,22 @@ export const LOCAL_PLAYLIST: Song[] = [
 		url: "assets/music/url/思考.mp3",
 		duration: 0,
 	},
+	{
+		id: 10,
+		title: "BWLAUTE BEIRRD",
+		artist: "夢乃ゆき",
+		cover: "assets/music/cover/BWLAUTE BEIRRD.png",
+		url: "assets/music/url/BWLAUTE BEIRRD.mp3",
+		duration: 0,
+	},
+	{
+		id: 11,
+		title: "THE APPLE IS CAST!",
+		artist: "夢乃ゆき",
+		cover: "assets/music/cover/THE APPLE IS CAST!.webp",
+		url: "assets/music/url/THE APPLE IS CAST!.mp3",
+		duration: 0,
+	},
 ];
 
 export const DEFAULT_SONG: Song = {
