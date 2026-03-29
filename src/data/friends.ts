@@ -8,14 +8,14 @@ export interface FriendItem {
 }
 
 export const friendsData: FriendItem[] = [
-	{
-		id: 1,
-		title: "藍二乗的小站",
-		imgurl: "/images/friends/woshinidie.jpg",
-		desc: "藍二乗的博客",
-		siteurl: "https://yuki2012720.github.io/",
-		tags: [],
-	},
+    {
+        "id": 1,
+        "title": "sea of solitude",
+        "imgurl": "/images/friends/woshinidie.jpg",
+        "desc": "一个普通的生活博客",
+        "siteurl": "https://yuki12720.org/",
+        "tags": []
+    }
 ];
 
 // 获取所有友情链接数据
