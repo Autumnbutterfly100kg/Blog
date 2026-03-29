@@ -97,7 +97,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		id: 12,
 		title: "天文学",
 		artist: "かしこ。, 初音ミク",
-		cover: "assets/music/cover/天文学.png",
+		cover: "assets/music/cover/天文学.webp",
 		url: "assets/music/url/天文学.mp3",
 		duration: 0,
 	},
