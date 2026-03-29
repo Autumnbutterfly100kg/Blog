@@ -19,7 +19,7 @@
 
 /* Migrate from v3 config */
 @theme {
-  --font-sans: "萝莉体 第二版", "Roboto", "sans-serif", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: "Roboto", "sans-serif", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --breakpoint-md: 768px;
   --breakpoint-lg: 1280px;
@@ -48,11 +48,6 @@ html {
   scroll-behavior: smooth;
   /* 现代浏览器：为滚动条预留稳定空间 */
   scrollbar-gutter: stable;
-  font-family: var(--font-sans);
-}
-
-body {
-  font-family: var(--font-sans);
 }
 
 /* 页面顶部渐变高光效果 */
