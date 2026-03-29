@@ -93,6 +93,14 @@ export const LOCAL_PLAYLIST: Song[] = [
 		url: "assets/music/url/THE APPLE IS CAST!.mp3",
 		duration: 0,
 	},
+	{
+		id: 12,
+		title: "天文学",
+		artist: "かしこ。, 初音ミク",
+		cover: "assets/music/cover/天文学.png",
+		url: "assets/music/url/天文学.mp3",
+		duration: 0,
+	},
 ];
 
 export const DEFAULT_SONG: Song = {
