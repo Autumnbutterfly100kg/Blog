@@ -5,6 +5,7 @@ date: 2026-07-28
 description: 怎么咕了这么久？！
 draft: false
 pinned: false
+encrypted: true
 password: "114514"
 passwordHint: "114514"
 pubDate: '2026-07-28'
