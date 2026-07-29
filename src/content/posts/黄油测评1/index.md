@@ -4,7 +4,7 @@ published: 2026-07-29T21:41:00+8:00
 description: 黄油测评一：もんむす・くえすと!（勇者大战魔物娘）
 image: ./游戏标题.jpg
 encrypted: true
-pinned: true
+pinned: false
 password: "方浩轩"
 passwordHint: "真名解放"
 tags: [黄油测评]
