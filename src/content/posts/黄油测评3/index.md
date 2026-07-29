@@ -4,7 +4,7 @@ published: 2026-07-29T22:30:00+8:00
 description: 黄油测评3：恶魔石板与被诅咒的犬公主
 image: ./游戏画面.jpg
 encrypted: true
-pinned: true
+pinned: false
 password: "方浩轩"
 passwordHint: "真名解放"
 tags: [黄油测评]
