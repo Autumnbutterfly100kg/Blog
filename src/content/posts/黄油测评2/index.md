@@ -4,7 +4,7 @@ published: 2026-07-29T22:10:00+8:00
 description: 黄油测评二：废土之旅系列（目前只玩了SEQUEL blight）
 image: ./游戏标题.jpg
 encrypted: true
-pinned: true
+pinned: false
 password: "方浩轩"
 passwordHint: "真名解放"
 tags: [黄油测评]
