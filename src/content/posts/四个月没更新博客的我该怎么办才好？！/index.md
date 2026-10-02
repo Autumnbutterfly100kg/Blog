@@ -6,7 +6,7 @@ description: 怎么咕了这么久？！
 draft: false
 pinned: false
 encrypted: true
-password: "114514"
+password: "abcde"
 passwordHint: "114514"
 pubDate: '2026-07-28'
 published: 2026-07-28
